@@ -2,8 +2,8 @@ import { defineConfig, devices } from '@playwright/test';
 import { defineBddConfig } from 'playwright-bdd';
 
 const testDir = defineBddConfig({
-	features: 'e2e/features/connexion.feature',
-	steps: 'e2e/steps/connexion.ts'
+	features: 'e2e/features/*.feature',
+	steps: 'e2e/steps/*.ts'
 });
 
 export default defineConfig({
