@@ -85,6 +85,7 @@
 						type="email"
 						value={player?.email ?? ''}
 						required
+						disabled={isEdit}
 						aria-invalid={!!errors.email}
 					/>
 					<FormError error={errors.email} />
