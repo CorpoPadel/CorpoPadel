@@ -1,0 +1,1 @@
+DROP INDEX `teams_pool_id_unique`;

@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX `players_user_id_unique` ON `players` (`user_id`);

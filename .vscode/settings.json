@@ -1,0 +1,7 @@
+{
+	"files.associations": {
+		"*.css": "tailwindcss"
+	},
+	"cucumber.features": ["e2e/features/*.feature"],
+	"cucumber.glue": ["e2e/steps/*.ts"]
+}
